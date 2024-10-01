@@ -16,7 +16,7 @@ const stats = [
   },
   {
     title: "Tech Skills",
-    value: 8,
+    value: 12,
   },
 ];
 
@@ -40,7 +40,7 @@ const Stats = () => {
                 <p
                   className={`${
                     stat.title.length < 15 ? "max-w-[100px]" : "max-w-[150px]"
-                  } leading-snug text-white/80 text-[15px] md:text-[16px] lg:text-base`}
+                  } leading-snug text-white/80 max-[320px]:text-[15px] max-[375px]:text-[15px] max-[425px]:text-[17px] md:text-[16px] lg:text-base`}
                 >
                   {stat.title}
                 </p>

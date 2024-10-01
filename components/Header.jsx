@@ -18,7 +18,7 @@ const Header = () => {
         <div className="hidden lg:flex items-center gap-8">
           <Nav />
           <Link href="/contact">
-            <Button className="hover:text-white">Hire me</Button>
+            <Button className="">Hire me</Button>
           </Link>
         </div>
         {/* mobile nav */}
