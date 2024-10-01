@@ -29,14 +29,20 @@ const Scroll = () => {
 
   return (
     <>
-      {showButton && (
+      <button
+        onClick={scrollToTop}
+        className="fixed bottom-10 right-5 sm:bottom-10  sm:right-10 bg-white text-[#22a6b3] p-3 rounded-full"
+      >
+        <FaArrowUp />
+      </button>
+      {/* {showButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-10 right-5 sm:bottom-20 sm:right-10 bg-white text-[#22a6b3] p-3 rounded-full"
+          className="fixed bottom-10 right-5 sm:bottom-20  sm:right-10 bg-white text-[#22a6b3] p-3 rounded-full"
         >
           <FaArrowUp />
         </button>
-      )}
+      )} */}
     </>
   );
 };
