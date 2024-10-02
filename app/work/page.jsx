@@ -125,7 +125,7 @@ const Work = () => {
           <div className="flex flex-col lg:flex-row lg:gap-[30px]">
             <div className="w-full lg:w-[50%] lg:h-[460px] flex flex-col  lg:justify-between order-2 lg:order-none">
               <div className="flex flex-col gap-[30px] h-[50%]">
-                <div className="text-8xl leading-none font-extrabold text-accent">
+                <div className="text-8xl leading-none font-extrabold  text-accent">
                   {project.num}
                 </div>
                 <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize ">

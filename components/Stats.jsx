@@ -29,18 +29,18 @@ const Stats = () => {
             return (
               <div
                 key={index}
-                className="flex gap-4 sm:items-center sm:justify-center lg:justify-start"
+                className="flex gap-4 sm:items-center shadow-sm shadow-accent py-1 sm:py-0 px-1 sm:justify-center lg:justify-start"
               >
                 <CountUp
                   end={stat.value}
                   duration={5}
                   delay={2}
-                  className="text-[20px] text-accent md:text-4xl lg:text-4xl xl:text-8xl font-extrabold"
+                  className="text-[20px] text-accent md:text-4xl lg:text-7xl xl:text-8xl font-extrabold"
                 />
                 <p
                   className={`${
                     stat.title.length < 15 ? "max-w-[100px]" : "max-w-[150px]"
-                  } leading-snug text-white/80 max-[320px]:text-[13px] max-[375px]:text-[15px] max-[425px]:text-[17px] md:text-[20px] lg:text-base xl:text-2xl`}
+                  } leading-snug text-white/80 max-[320px]:text-[13px] max-[375px]:text-[15px] max-[425px]:text-[17px] md:text-[20px] lg:text-2xl xl:text-2xl`}
                 >
                   {stat.title}
                 </p>

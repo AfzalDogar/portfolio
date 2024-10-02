@@ -61,7 +61,7 @@ const Services = () => {
                   {/* <div className="text-5xl font-extrabold text-outline   cursor-pointer  text-transparent group-hover:text-outline:hover transition-all duration-500 ">
                     {service.num}
                   </div> */}
-                  <div className="text-5xl font-extrabold    cursor-pointer  text-accent transition-all duration-500 ">
+                  <div className="text-5xl font-extrabold  shadow-accent shadow-md   cursor-pointer  text-accent transition-all duration-500 ">
                     {service.num}
                   </div>
                   <Link
