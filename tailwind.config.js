@@ -18,7 +18,7 @@ module.exports = {
       xl: "1280px",
     },
     fontFamily: {
-      primary: "var(--font-jetBrainsMono)",
+      primary: ['var(--font-jetBrainsMono)', 'monospace'],
     },
     extend: {
       colors: {

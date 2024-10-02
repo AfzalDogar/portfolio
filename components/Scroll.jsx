@@ -7,7 +7,7 @@ const Scroll = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 300) {
+      if (window.scrollY > 50) {
         setShowButton(true);
       } else {
         setShowButton(false);
@@ -29,20 +29,20 @@ const Scroll = () => {
 
   return (
     <>
-      <button
+      {/* <button
         onClick={scrollToTop}
         className="fixed bottom-10 right-5 sm:bottom-10  sm:right-10 bg-white text-[#22a6b3] p-3 rounded-full"
       >
         <FaArrowUp />
-      </button>
-      {/* {showButton && (
+      </button> */}
+      {showButton && (
         <button
           onClick={scrollToTop}
           className="fixed bottom-10 right-5 sm:bottom-20  sm:right-10 bg-white text-[#22a6b3] p-3 rounded-full"
         >
           <FaArrowUp />
         </button>
-      )} */}
+      )}
     </>
   );
 };

@@ -5,23 +5,27 @@ import { usePathname } from "next/navigation";
 const links = [
   {
     name: "home",
-    path: "/",
+    path: "#home",
+  },
+  {
+    name: "Experience",
+    path: "#work",
+  },
+  {
+    name: "Skills",
+    path: "#skills",
   },
   {
     name: "services",
-    path: "/services",
+    path: "#services",
   },
   {
     name: "resume",
-    path: "/resume",
-  },
-  {
-    name: "work",
-    path: "/work",
+    path: "#resume",
   },
   {
     name: "contact",
-    path: "/contact",
+    path: "#contact",
   },
 ];
 
@@ -32,7 +36,7 @@ const Nav = () => {
     <nav className="flex gap-8">
       {links.map((link, index) => {
         return (
-          <Link
+          <a
             href={link.path}
             key={index}
             className={`${
@@ -40,7 +44,7 @@ const Nav = () => {
             } capitalize font-medium hover:text-accent transition-all`}
           >
             {link.name}
-          </Link>
+          </a>
         );
       })}
     </nav>

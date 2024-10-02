@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { BsArrowDownRight } from "react-icons/bs";
+import SectionHeading from "@/components/common/section-heading";
 
 const services = [
   {
@@ -36,8 +37,12 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="min-h-[80vh] flex flex-col justify-center py-12 lg:py-0">
+    <section
+      id="services"
+      className="flex flex-col justify-center py-10 lg:py-12 xl:py-0"
+    >
       <div className="container mx-auto">
+        <SectionHeading title="Services" />
         <motion.div
           initial={{ opacity: 0 }}
           animate={{
@@ -53,7 +58,10 @@ const Services = () => {
                 className=" flex-1 flex flex-col justify-center gap-6 group"
               >
                 <div className="w-full flex items-center justify-between">
-                  <div className="text-5xl font-extrabold text-outline  cursor-pointer  text-transparent group-hover:text-outline:hover transition-all duration-500 ">
+                  {/* <div className="text-5xl font-extrabold text-outline   cursor-pointer  text-transparent group-hover:text-outline:hover transition-all duration-500 ">
+                    {service.num}
+                  </div> */}
+                  <div className="text-5xl font-extrabold    cursor-pointer  text-accent transition-all duration-500 ">
                     {service.num}
                   </div>
                   <Link
