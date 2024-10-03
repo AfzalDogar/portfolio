@@ -67,7 +67,7 @@ const Skills = () => {
       },
       {
         icon: <TbBrandNextjs />,
-        name: "Next.js",
+        name: "Next",
         color: "text-white",
       },
       {
