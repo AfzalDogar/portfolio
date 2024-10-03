@@ -17,9 +17,10 @@ const Header = () => {
         {/* desktop nav */}
         <div className="hidden lg:flex items-center gap-8">
           <Nav />
-          <Link href="/contact">
+          {/* <Link href="/contact">
             <Button className="">Hire me</Button>
-          </Link>
+          </Link> */}
+          <Button className="">Hire me</Button>
         </div>
         {/* mobile nav */}
         <div className="lg:hidden">
