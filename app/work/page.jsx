@@ -111,7 +111,7 @@ const Work = () => {
   };
 
   return (
-    <div id="work">
+    <div id="work" className="scroll-mt-36">
       <SectionHeading title="Projects" />
       <motion.div
         initial={{ opacity: 0 }}

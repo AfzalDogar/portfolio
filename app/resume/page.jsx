@@ -173,7 +173,7 @@ const Resume = () => {
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
       id="resume"
-      className="  flex justify-center items-center py-5 md:py-0 lg:py-12 xl:py-0"
+      className="  flex justify-center items-center py-5 md:py-0 lg:py-12 xl:py-0 scroll-mt-36"
     >
       <div className="container mx-auto lg:mb-10">
         <Tabs
@@ -183,41 +183,25 @@ const Resume = () => {
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto lg:mx-0 gap-6">
             <TabsTrigger
               value="experience"
-              className={({ selected }) =>
-                selected
-                  ? "bg-accent text-white py-2 px-4 rounded"
-                  : "bg-[#232329] text-white/60 py-2 px-4 rounded"
-              }
+              className="bg-[#232329] text-white/60 py-2 px-4 rounded-md"
             >
               Experience
             </TabsTrigger>
             <TabsTrigger
               value="education"
-              className={({ selected }) =>
-                selected
-                  ? "bg-accent text-white py-2 px-4 rounded"
-                  : "bg-[#232329] text-white/60 py-2 px-4 rounded"
-              }
+              className="bg-[#232329] text-white/60 py-2 px-4 rounded-md"
             >
               Education
             </TabsTrigger>
             <TabsTrigger
               value="skills"
-              className={({ selected }) =>
-                selected
-                  ? "bg-accent text-white py-2 px-4 rounded"
-                  : "bg-[#232329] text-white/60 py-2 px-4 rounded"
-              }
+              className="bg-[#232329] text-white/60 py-2 px-4 rounded-md"
             >
               Skills
             </TabsTrigger>
             <TabsTrigger
               value="about"
-              className={({ selected }) =>
-                selected
-                  ? "bg-accent text-white py-2 px-4 rounded"
-                  : "bg-[#232329] text-white/60 py-2 px-4 rounded"
-              }
+              className="bg-[#232329] text-white/60 py-2 px-4 rounded-md"
             >
               About me
             </TabsTrigger>

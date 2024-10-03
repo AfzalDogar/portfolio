@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: smooth;
+  }
   body {
     @apply font-primary bg-primary text-white leading-loose;
   }

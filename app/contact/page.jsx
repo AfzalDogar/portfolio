@@ -34,7 +34,7 @@ const Contact = () => {
         },
       }}
       id="contact"
-      className=""
+      className="scroll-mt-36"
     >
       <div className="container mx-auto md:mb-20">
         <div className="flex justify-center gap-[30px]">

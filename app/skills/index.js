@@ -94,7 +94,7 @@ const Skills = () => {
   };
   return (
     <div
-      className="flex flex-col gap-10 justify-center items-center"
+      className="flex flex-col gap-10 justify-center items-center scroll-mt-36"
       id="skills"
     >
       <SectionHeading title={skills.title} />

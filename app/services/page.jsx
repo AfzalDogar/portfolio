@@ -39,7 +39,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="flex flex-col justify-center py-10 lg:py-12 xl:py-0"
+      className="flex flex-col justify-center py-10 lg:py-12 xl:py-0 scroll-mt-36"
     >
       <div className="container mx-auto">
         <SectionHeading title="Services" />
