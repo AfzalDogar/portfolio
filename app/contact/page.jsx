@@ -39,7 +39,7 @@ const Contact = () => {
       <div className="container mx-auto md:mb-20">
         <div className="flex justify-center gap-[30px]">
           <div className="lg:w-[65%]">
-            <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+            <form className="flex flex-col gap-6 p-10 bg-[#27272c] shadow-inner shadow-accent rounded-xl">
               <h3 className="  text-[20px] text-center  md:text-4xl text-accent">
                 Contact Me
               </h3>
@@ -53,10 +53,7 @@ const Contact = () => {
                 className="h-[200px] text-xs sm:text-base"
                 placeholder="Type your message here."
               />
-              <Button
-                size="md"
-                className="max-w-40 py-2 flex justify-center"
-              >
+              <Button size="md" className="max-w-40 py-2 flex justify-center">
                 Send Message
               </Button>
             </form>
