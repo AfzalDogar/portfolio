@@ -38,7 +38,7 @@ const Scroll = () => {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-10 right-5 sm:bottom-20  sm:right-10 bg-white text-[#22a6b3] p-3 rounded-full"
+          className="fixed bottom-10 right-5 sm:bottom-20  sm:right-10 bg-white text-[#1C1C22] p-3 rounded-full"
         >
           <FaArrowUp />
         </button>
