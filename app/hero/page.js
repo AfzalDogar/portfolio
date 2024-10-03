@@ -10,7 +10,7 @@ const Home = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between lg:pt-8 lg:pb-24">
           <div className="text-center lg:text-left order-1 lg:order-none">
-            <span className="text-xl">Frontend Developer</span>
+            <span className="text-xl text-accent">Frontend Developer</span>
             <h1 className="h1 mb-6">
               Hello I&apos;m <br /> <span className="text-accent">Afzal</span>
             </h1>
