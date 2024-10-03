@@ -48,11 +48,9 @@ const MobileNav = () => {
       >
         <div className="w-full flex justify-between">
           <CiMenuFries className="text-[32px] text-accent" />
-          <img
-            class="size-8 rounded-full object-cover object-center ring ring-white"
-            src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-            alt=""
-          />
+          <div className="w-[32px] h-[32px] rounded-full overflow-hidden object-cover object-center">
+            <img class="rounded-full " src="/assests/pic.jpeg" alt="Avatar" />
+          </div>
         </div>
       </SheetTrigger>
       <SheetContent className="flex flex-col">
