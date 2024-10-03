@@ -33,9 +33,7 @@ const links = [
 ];
 const MobileNav = () => {
   const pathname = usePathname();
-
   const [open, setOpen] = useState(false);
-
   const handleLinkClick = () => {
     setOpen(false);
   };
