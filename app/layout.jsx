@@ -1,11 +1,12 @@
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 //component
-import Header from "@/components/Header";
+const Header = dynamic(() => import("@/components/Header"), { ssr: false });
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 import Footer from "@/components/Footer";
 import Scroll from "@/components/Scroll";
+import dynamic from "next/dynamic";
 
 const jetBrainsMono = JetBrains_Mono({
   subsets: ["cyrillic"],
