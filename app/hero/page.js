@@ -6,7 +6,7 @@ import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
   return (
-    <section className="h-full scroll-mt-36" id="home" >
+    <section className="h-full scroll-mt-36" id="home">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between lg:pt-8 lg:pb-24">
           <div className="text-center lg:text-left order-1 lg:order-none">
@@ -16,14 +16,14 @@ const Home = () => {
               <span className="text-accent ">Afzal Dogar </span>
             </h1>
             <p className="max-w-[500px] text-white mb-9">
-              Expert Front-end Developer with 2+ years of expertise in crafting
+              Expert Front-end Developer with 1+ years of expertise in crafting
               responsive, high-performance web applications, with key strengths
               in optimizing load times and enhancing user engagement. Proven
               ability to develop maintainable, top-notch code and support junior
               developers.
             </p>
             <div className="flex flex-col lg:flex-row items-center gap-8">
-              <a href="/upload/Hafiz Muhammad Afzal.pdf" download>
+              <a href="/upload/afzal.pdf" download>
                 <Button
                   variant="outline"
                   size="lg"

@@ -25,7 +25,7 @@ import {
 const about = {
   title: "About me",
   description:
-    "I am a dedicated web developer with over 2+ years of experience in building responsive and dynamic applications. My passion for coding and continuous learning drives me to improve my skills and stay current with industry trends.",
+    "I am a dedicated web developer with over 1+ years of experience in building responsive and dynamic applications. My passion for coding and continuous learning drives me to improve my skills and stay current with industry trends.",
   info: [
     {
       fieldName: "Name",
@@ -37,7 +37,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "2+ years",
+      fieldValue: "1+ years",
     },
     {
       fieldName: "Language",
